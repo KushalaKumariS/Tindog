@@ -1,0 +1,242 @@
+/* title */
+
+#title{
+  padding-bottom: 1;
+}
+
+.title-content{
+
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: "Anton";
+}
+
+/* headings */
+
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* sections */
+
+.colored{
+  background-color:#ff4c68;
+  color: #fff;
+}
+
+.white{
+  background-color: #fff;
+}
+
+/* body */
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.header-title{
+  padding: 5% 15% 5%;
+}
+
+/* navigation bar */
+
+.tindog-icon{
+  color: #ff4c68;
+  margin-bottom: 1rem;
+}
+
+.tindog-icon:hover{
+  color: #ef8172;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.container{
+  margin-left:30px;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+    text-align: right;
+}
+
+.nav-link{
+  font-family:"Montserrat-Light";
+  font-size:1.2rem;
+  color: #CDD0CB;
+}
+
+.nav-link:hover{
+  color: #fff;
+}
+
+.navbar-nav > li{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.toggler-button{
+  margin-right: 3%;
+}
+
+.navbar{
+/*   z-index should be above .close-navbar-toggler */
+  z-index:2;
+}
+.close-navbar-toggler{
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:1;
+  cursor:pointer;
+}
+.close-navbar-toggler.collapsed{
+  z-index:-1;
+}
+
+/* download buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title content */
+
+.title-content{
+  padding-top: 8%;
+}
+
+/* title image */
+
+.title-image{
+  width:60%;
+  transform: rotate(20deg);
+  position: relative;
+}
+
+/* feature */
+
+#features{
+  padding: 7% 15%;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.feature-icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover{
+  color: #ff4c68;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+/* testimonials */
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.carousel-item{
+    padding: 3% 12%;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* press */
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 7%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.price-text{
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+/* media */
+
+@media (max-width: 1028px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    position: static;
+    text-align: center;
+  }
+}
+
+/* call to action */
+
+#cta{
+  padding: 5% 15% 5%;
+}
+
+/* footer */
+
+#footer{
+  padding: 5% 15%;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+.footer-link{
+  color: #9D9D9D;
+}
+
+.footer-link:hover{
+  color: black;
+}
